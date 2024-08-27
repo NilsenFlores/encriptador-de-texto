@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+
+</header>
+<body>
+    <header>
+        
+    </header>
+    <main class="presentacion">
+        <img class="logo" src="./img/logo_alura.png" alt="logo">
+        <section class="presentacion__contenido">
+            <textarea class="presentacion__textarea" rows="9" placeholder="Escriba aquí" id="cadena"></textarea>
+            <p class="presentacion__contenido__advertencia" >
+                <img src="./img/Vector.png">
+                Solo letras minúsculas y sin acentos.</p>
+            <div class="presentacion__botones">
+                <button class="presentacion__botones__encriptar" onclick = "encriptar();">Encriptar</button>
+                <button class="presentacion__botones__desencriptar" onclick = "desencriptar();">Desencriptar</button>
+            </div>
+        </section>
+        <section class="presentacion__resultado" id="resultado">
+            <img class="presentacion__resultado__imagen" src="./img/Muñeco.png" alt="muñeco">
+
+            <div class="presentacion__resultado__text" >
+                
+                <h2 class="presentacion__resultado__aviso" >Ningun mensaje fue encontrado</h1>
+                <p class="presentacion__resultado__instruccion">Se necesita introducir texto para encriptar o desencriptar</p>
+            </div>
+        </section>
+    </main>
+    <!--<p class="footer__autor">Desarrollado por Nilsen Flores</p>-->
+
+    <footer class="footer">
+        <p class="footer__texto">Desarrollado por Nilsen Flores</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+
+</html>
+
