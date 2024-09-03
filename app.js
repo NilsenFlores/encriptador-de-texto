@@ -38,6 +38,8 @@ function cambiosContenedor(cadenaNueva){
     // botón aparece en el contenedor
     contenedorResultado.appendChild(botonCopiar);
 
+    contenedorResultado.style.justifyContent = "space-berween";
+
     // el contenedor es visible
     contenedorResultado.style.display = 'block';
 

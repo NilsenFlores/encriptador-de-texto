@@ -121,7 +121,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
     margin: 40px;
     background-color: rgb(255, 255, 255);
     border-radius: 32px;
@@ -148,7 +148,7 @@ body{
 
 .presentacion__resultado__nuevo{
     margin: 5%;
-    height: 80%;
+    height: 75%;
     width: auto;
     font-size: 1.5rem;
     font-family: var(--fuenteInter);
@@ -171,7 +171,10 @@ body{
     font-size: 1rem;
     border: 1px solid var(--colorPrimario);
     box-shadow: none;
-    margin-left: 27%;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+    
    
 }
 
@@ -192,14 +195,14 @@ body{
 .presentacion__resultado__instruccion{
     font-weight: 400;
     font-family: var(--fuenteInter);
-    font-size: 1rem;
+    font-size: 0.9rem;
 
 
 }
 .footer{
     background-color:var(--colorPrimario);
     text-align: center;
-    padding: 15px;
+    padding: 15px 0 15px 0;
     width: 100%;
     
 }
@@ -234,7 +237,7 @@ body{
     }
 
     .presentacion__resultado__text{
-        padding: 2800000000000px 17px;
+        padding: 28px 17px;
 
     }
 
